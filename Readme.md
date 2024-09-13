@@ -1,3 +1,3 @@
 Integrantes:
--Luna Padilla Luis Donaldo
--Guzman Gutierrez Jorge Alberto
+- Guillen de la Mora Janeth Andre
+- Sanchez Tovar Jesus Alfredo
