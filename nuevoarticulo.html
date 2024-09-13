@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Artículos</title>
+    <link rel="stylesheet" href="nuevoarticulo.css">
+</head>
+<body>
+
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+        <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+        <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+        <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+    </ul>
+
+    <form action="#" method="post">
+        <label for="descripcion">Descripción:</label>
+        <input type="text" id="descripcion" name="descripcion"><br><br>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad"><br><br>
+
+        <label for="precio">Precio Unitario:</label>
+        <input type="number" id="precio" name="precio" step="0.01"><br><br>
+
+        <label for="marca">Marca:</label>
+        <select id="marca" name="marca">
+            <option value="samsung">Samsung</option>
+            <option value="lg">LG</option>
+            <option value="dell">DELL</option>
+            <option value="apple">Apple</option>
+        </select><br><br>
+
+        <input type="submit" value="Guardar">
+    </form>
+
+</body>
+</html>
